@@ -11,3 +11,4 @@ events.on("exec", (brigadeEvent, project) => {
     helloAgain.run()
 	//console.log("Hello world!")
 })
+})
