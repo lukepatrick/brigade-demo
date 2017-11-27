@@ -6,6 +6,8 @@ events.on("exec", (e, p) => {
   one.docker.enabled = true
   console.log(one)
 
-  results = one.run()
-  console.log(results.toString())
+  one.run().then( result => {
+    console.log(result.toString())
+  })
+
 })
